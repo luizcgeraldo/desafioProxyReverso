@@ -1,0 +1,10 @@
+@startuml
+
+usuario -> nginx : acessa
+nginx   -> nodejs : chamada
+nodejs  -> mysql : adiciona registro tabela people
+mysql   -> nodejs : recupera registro tabela  people
+nodejs  -> browser : porta 8080
+
+
+@enduml
