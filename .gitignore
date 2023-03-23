@@ -1,2 +1,2 @@
 mysql
-!node/init_mysql/
+./node/init_mysql/
